@@ -63,9 +63,9 @@ body.rtl-namespace {
 \*------------------------------------*/
 
 // color scheme foundation
-$color-primary: #373E46; // faded blue
-$color-secondary: #FFC334; // gold
-$color-tertiary: #C7CCD4; // pale grey
+$color-primary: #333; // grey bat
+$color-secondary: #f00; // red
+$color-tertiary: #f99; // light-red
 
 // blacks and dark greys
 $color-dark-alpha: #222222;
@@ -100,7 +100,7 @@ $mid-gray: lighten( $dk-gray, 15% );
 $lt-brown: #FBF9F6;
 $dk-brown: #EFECE8;
 $blue: #2274b4;
-$yellow: $color-secondary;
+$yellow: #FFC334;
 $green: #4fab2f;
 $red: #B00F23;
 $brown: #87582D;
@@ -153,20 +153,20 @@ $facebook: #375392;
 $twitter: #45B4F3;
 
 // Other
-$highlight: $yellow;
+$highlight: $color-secondary;
 $sass: #CC6699;
 
 
 /*------------------------------------*\
     $TYPE
 \*------------------------------------*/
-$base-font-family: 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$base-font-family: 'vpro_vesta', Verdana, Arial, Helvetica, Sans, FreeSans, 'Nimbus Sans L', Garuda, sans-serif;
 $base-font-color: $base-color;
 $sub-base-font-color: $text-color;
 $body-font-weight: normal;
 $body-font-style: normal;
 $bold: 800;
-$heavy-font-family: 'LatoLatin-Heavy', 'Helvetica', Helvetica, Arial, sans-serif;
+$heavy-font-family: 'simplistic_sans', 'SimplisticSans', Arial, Helvetica, Sans, FreeSans, 'Nimbus Sans L', Garuda, sans-serif;
 
 $base-font-size: 14px;
 $base-line-height: 1.266666667;
